@@ -1,0 +1,25 @@
+#search_button{
+	-fx-background-image: url("../../../../../../resources/icon/search-icon-white.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	-fx-background-size: 20px
+	
+}
+.background{
+	-fx-background-color:#7A7E91;
+}
+* {              
+    -fx-my-menu-color-highlighted: #8C93B6;      
+    -fx-my-menu-font-color: #F1EBE4;             
+    -fx-my-menu-font-color-highlighted: #93B0BA; 
+}
+.menu-bar > .container > .menu-button:hover,
+.menu-bar > .container > .menu-button:focused,
+.menu-bar > .container > .menu-button:showing {
+    -fx-background-color: -fx-my-menu-color-highlighted;
+}
+.menu-bar > .container > .menu-button > .label {
+    -fx-text-fill: -fx-my-menu-font-color;
+    -fx-font-size: 15px;
+}
+

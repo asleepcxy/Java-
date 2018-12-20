@@ -1,0 +1,68 @@
+.background{
+	 -fx-background-color:rgb(132,132,132);
+}
+#finance{
+	-fx-background-image: url("../../../../../../resources/images/income/finance.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	-fx-background-size: 60px;
+}
+#salary{
+	-fx-background-image: url("../../../../../../resources/images/income/salary.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	-fx-background-size: 60px;
+}
+#transfer{
+	-fx-background-image: url("../../../../../../resources/images/income/money-transfer.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	-fx-background-size: 60px;
+}
+#other{
+	-fx-background-image: url("../../../../../../resources/images/income/other.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	-fx-background-size: 60px;
+}
+.toggle-button{
+	-fx-background-radius:75px;
+	-fx-background-color:rgb(143,170,184);
+	-fx-border-color:black ;
+	-fx-border-width:1px;
+	-fx-border-radius:80px;
+	-fx-pref-width:85px;
+	-fx-pref-height:85px;
+}
+
+#remarkField,#valueField,#addDateDatePicker{
+	-fx-border-color:black;
+	-fx-border-width:1px;
+}
+.toggle-button:selected{
+	-fx-background-color:rgb(10,123,133);
+}
+.toggle-button:unselected{
+	
+	-fx-background-color:rgb(143,170,184);
+}
+
+.toggle-button:hover{
+	-fx-background-color:rgb(10,123,133);
+}
+#submit_button{
+	-fx-background-color:rgb(163,203,179);
+	-fx-text-fill:#f1ebe4;
+	-fx-font-weight:bold;
+    -fx-background-radius: 25px;
+    -fx-border-color:black;
+    -fx-border-radius: 25px;
+}
+#submit_button:hover{
+	-fx-background-radius: 35px;
+    -fx-border-radius: 35px;
+    -fx-pref-width:75px;
+	-fx-pref-height:35px;
+}
+
+

@@ -1,0 +1,129 @@
+.background{
+	 -fx-background-color: rgb(132,132,132);
+}
+
+.toggle-button{
+	-fx-background-radius:75px;
+	-fx-background-color:rgb(143,170,184);
+}
+.text_blow{
+	-fx-text-fill: #F1EBE4;
+}
+#book{
+	-fx-background-image: url("../../../../../../resources/images/payment/book.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+}
+#digital{
+	-fx-background-image: url("../../../../../../resources/images/payment/digital.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+}
+#clothes{
+	-fx-background-image: url("../../../../../../resources/images/payment/clothes.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+}
+#heathcare{
+	-fx-background-image: url("../../../../../../resources/images/payment/healthcare.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+}
+#entertainment{
+	-fx-background-image: url("../../../../../../resources/images/payment/entertainment.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+}
+#food{
+	-fx-background-image: url("../../../../../../resources/images/payment/food.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	
+}
+#digital{
+	-fx-background-image: url("../../../../../../resources/images/payment/digital.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+
+}
+#other{
+	-fx-background-image: url("../../../../../../resources/images/payment/other.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+
+}
+#daily_use{
+	-fx-background-image: url("../../../../../../resources/images/payment/daily_use.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+
+}
+#gift{
+	-fx-background-image: url("../../../../../../resources/images/payment/gift.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+
+}
+#hotel{
+	-fx-background-image: url("../../../../../../resources/images/payment/hotel.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+
+}
+#transport{
+	-fx-background-image: url("../../../../../../resources/images/payment/transport.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+
+}
+#game{
+	-fx-background-image: url("../../../../../../resources/images/payment/game.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+
+}
+
+.toggle-button{
+	-fx-background-size:45px;
+	-fx-background-radius:60px;
+	-fx-pref-width:60px;
+	-fx-pref-height:60px;
+	-fx-background-color:rgb(143,170,184);
+	-fx-border-color:black ;
+	-fx-border-width:1px;
+	-fx-border-radius:60px;
+
+}
+.button{
+	
+}
+#remarkField,#valueField,#addDateDatePicker,#submit_button{
+	-fx-border-color:black;
+	-fx-border-width:1px;
+}
+#submit_button{
+	-fx-background-color:rgb(163,203,179);
+	-fx-text-fill:#f1ebe4;
+	-fx-font-weight:bold;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+}
+#submit_button:hover{
+	-fx-background-radius: 30;
+    -fx-border-radius: 30;
+}
+
+.toggle-button:selected{
+	-fx-background-color:rgb(10,123,133);
+}
+.toggle-button:hover{
+	-fx-background-color:rgb(10,123,133);
+}
+
+#submit_button:hover{
+	-fx-background-radius: 35px;
+    -fx-border-radius: 35px;
+    -fx-pref-width:75px;
+	-fx-pref-height:35px;
+}
+

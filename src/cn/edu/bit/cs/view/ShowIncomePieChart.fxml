@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.edu.bit.cs.view.ShowIncomePieChartController">
+   <children>
+      <PieChart fx:id="incomePieChartData" layoutX="27.0" layoutY="-86.0" prefHeight="600.0" prefWidth="600.0" title="收入占比" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label fx:id="caption" layoutX="-2.0" layoutY="-1.0" prefHeight="33.0" prefWidth="114.0" />
+   </children>
+</AnchorPane>

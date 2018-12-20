@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lists>
+    <gift>
+        <deadlineDate>2019-12-21</deadlineDate>
+        <done>0</done>
+        <money>1100.0</money>
+        <thing>something</thing>
+    </gift>
+    <income>
+        <remark></remark>
+        <thing>工资</thing>
+        <value>110.0</value>
+        <addDate>2018-05-20</addDate>
+    </income>
+    <income>
+        <remark></remark>
+        <thing>转账</thing>
+        <value>150.0</value>
+        <addDate>2018-04-21</addDate>
+    </income>
+    <payment>
+        <remark></remark>
+        <thing>餐饮</thing>
+        <value>100.0</value>
+        <addDate>2018-02-21</addDate>
+    </payment>
+    <payment>
+        <remark></remark>
+        <thing>衣服</thing>
+        <value>120.0</value>
+        <addDate>2018-04-21</addDate>
+    </payment>
+</lists>
