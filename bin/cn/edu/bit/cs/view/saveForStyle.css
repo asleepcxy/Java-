@@ -1,0 +1,26 @@
+#add_gift{
+	-fx-background-image: url("../../../../../../resources/icon/add_green.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	-fx-background-size: 70px;
+	-fx-background-color:#565968;
+}
+#add_gift:hover{
+	-fx-background-size: 80px;
+}
+.table-view {
+    -fx-base:  #9095AC;
+    -fx-control-inner-background:#222328; 
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+ }
+.table-view.column-header.label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #F1EBE4;
+    -fx-opacity: 1;
+}
+
+ .background{
+ 	-fx-background-color:#565968;
+ }

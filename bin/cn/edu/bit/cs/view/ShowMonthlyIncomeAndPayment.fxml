@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.edu.bit.cs.view.ShowMonthlyIncomeAndPaymentController">
+   <children>
+      <BarChart fx:id="incomeAndpaymentBarChart" layoutX="-8.0" legendSide="RIGHT" prefHeight="600.0" prefWidth="1200.0" title=" 我的收入一览表" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <xAxis>
+          <CategoryAxis label="月份" side="BOTTOM" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="金额" side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+.button{
+	-fx-background-color:rgb(109,109,109);
+	-fx-border-color:rgb(128,128,128);
+	-fx-border-width:1px;
+	}
+.button:hover{
+	-fx-background-color:#9EAEA0;
+	-fx-border-color:rgb(29,99,97);
+	-fx-border-width:2px;
+}
+#table{
+	-fx-background-color:rgb(142,142,142);
+}

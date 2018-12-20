@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" styleClass="background" stylesheets="@AddGiftStyle.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.edu.bit.cs.view.AddGiftController">
+   <children>
+      <VBox alignment="TOP_RIGHT" layoutX="21.0" layoutY="19.0" spacing="65.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="344.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <Text fill="#f1ebe4" strokeType="OUTSIDE" strokeWidth="0.0" text="想要为什么而存钱呢" />
+            <Text fill="#f1ebe4" strokeType="OUTSIDE" strokeWidth="0.0" text="实现期限" textOrigin="CENTER" />
+            <Text fill="#f1ebe4" strokeType="OUTSIDE" strokeWidth="0.0" text="金额" />
+         </children>
+      </VBox>
+      <VBox layoutX="149.0" layoutY="20.0" spacing="50.0" AnchorPane.leftAnchor="210.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <TextField fx:id="gift_text" />
+            <DatePicker fx:id="deadline" />
+            <TextField fx:id="money_need" />
+         </children>
+      </VBox>
+      <Button fx:id="submit_button" layoutX="156.0" layoutY="285.0" mnemonicParsing="false" onAction="#handleOk" text="决定这就是我的心愿了" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.edu.bit.cs.view.ShowDailyPaymentController">
+   <children>
+      <LineChart fx:id="lineChart" blendMode="DARKEN" prefHeight="500.0" prefWidth="800.0" title="我的每日支出一览" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <xAxis>
+          <CategoryAxis label="日期" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="金额" side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>

@@ -1,0 +1,84 @@
+ .layer0{
+     -fx-background-color:rgb(65,65,65);
+ }
+.background{
+	-fx-background-color:#565968;
+}
+
+#myAnalyse{
+	-fx-background-image: url("../../../../../../resources/images/Analyze.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	-fx-background-size: 130px;
+	-fx-background-color:#565968;
+	-fx-text-fill:#F1EBE4;
+}
+#myGifts{
+	-fx-background-image: url("../../../../../../resources/images/gift-box.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	-fx-background-size: 130px;
+	-fx-background-color:#565968;
+	-fx-text-fill:#F1EBE4;
+}
+#myAnalyse:hover{
+	-fx-background-size:140px;
+}
+#myGifts:hover{
+	-fx-background-size:140px;
+}
+.add_button{
+	-fx-background-image: url("../../../../../../resources/icon/add_green.png");
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	-fx-background-size: 100px;
+	-fx-background-color:#565968;
+}
+.add_button:hover{
+	-fx-background-size: 110px;
+}
+.unchangetext{
+	-fx-text-fill:#9998a0;
+	-fx-font-weight:bold;
+	-fx-font-size:15px;
+}
+
+.changetext{
+	-fx-text-fill:rgb(255,255,255);
+	-fx-font-size:20px;
+}
+
+#edit_income{
+	-fx-background-image: url("../../../../../../resources/icon/edit_grey.png");
+}
+#edit_payment{
+	-fx-background-image: url("../../../../../../resources/icon/edit_yellow.png");
+}
+#delete_income{
+	-fx-background-image: url("../../../../../../resources/icon/delete_grey.png");
+}
+#delete_payment{
+	-fx-background-image: url("../../../../../../resources/icon/delete_yellow.png");
+}
+.change_button{
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center center;
+	-fx-background-size: 50px;
+	-fx-background-color:#565968;
+}
+.change_button:hover{
+	-fx-background-size: 55px;
+}
+.table-view {
+    -fx-base:  #9095AC;
+    -fx-control-inner-background:rgb(61,61,61);
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+ }
+.table-view.column-header.label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #F1EBE4;
+    -fx-opacity: 1;
+}
+
